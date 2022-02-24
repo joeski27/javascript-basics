@@ -15,11 +15,11 @@ return string.length;
 };
 
 function firstCharacter (string) {
-return string.firstCharacter
+return string.charAt(0);
 };
 
 function firstCharacters (string, n) {
- 
+ return string.substring(0,n);
 };
 
 module.exports = {
